@@ -4,14 +4,19 @@
 
 from random import randint
 from time import sleep
+
 computador = randint(0, 5)
+
 print('='*55)
 print('\033[1;30mVou pensar em número entre\033[m \033[1m0\033[m \033[1;30me\033[m \033[1m5\033[m.'
       '\033[1;30mTente adivinhar...\033[m')
 print('='*55)
+
 jogador = int(input('Em que número eu pensei? '))
+
 print('\033[1;33mPROCESSANDO...\033[m')
 sleep(3)
+
 if jogador == computador:
     print('\033[1;32mPARABÉNS!\033[m Você conseguiu me vencer!')
 else:
