@@ -6,7 +6,7 @@ print(' 10 TERMOS DE UMA PA')
 print('='*21)
 
 primeiro = int(input('Qual o primeiro termo: '))
-razão = int(input('Qual a razão: '))
+razão = int(input('Qual a razão da PA: '))
 décimo = primeiro + (10 - 1) * razão
 
 for c in range(primeiro, décimo + razão, razão):
