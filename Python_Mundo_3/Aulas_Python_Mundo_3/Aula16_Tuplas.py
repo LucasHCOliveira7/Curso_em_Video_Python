@@ -20,4 +20,15 @@ print('\n')
 print('2º FORMA - UTILIZANDO O range E len') # Utilizado para mostrar a posição caso necessário
 
 for cont in range(0, len(lanche)):
-    print(f'Eu vou comer {lanche[cont]}')
+    print(f'Eu vou comer {lanche[cont]} na posição {cont}')
+
+print('\n')
+print('3º FORMA - UTILIZANDO O enumarate')
+
+for pos, comida in enumerate(lanche):
+    print(f'Eu vou comer {comida} na posição {pos}')
+
+print('\n')
+print(sorted(lanche)) # Altera a ordem mostrada, colocando em ordem alfabética
+
+
