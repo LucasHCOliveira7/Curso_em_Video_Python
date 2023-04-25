@@ -13,4 +13,3 @@ while True:
        print('Tente novamente. ', end='')
 
 print(f'Você digitou o número {cont[num]}')
-       
