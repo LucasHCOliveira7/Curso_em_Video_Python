@@ -1,6 +1,7 @@
 # Variável que guarda vários valores
 # As tuplas são IMUTÁVRIS, não consigo mudar uma tupla depois de definir os valores
 # Variáveis começam no 0 (zero)
+# Tuplas são as variáveis dentro de 'áspas', dividida por vírgulas e dentro de parênteses.
 
 lanche = ('Hambúrguer', 'Sorvete', 'Pizza', 'Pudim')
 print(lanche) # Mostra toda a tupla sem tirar os parênteses e aspas
