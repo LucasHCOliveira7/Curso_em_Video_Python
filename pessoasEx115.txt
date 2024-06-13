@@ -1,0 +1,3 @@
+Lucas;22
+Carol;18
+Maria;88
